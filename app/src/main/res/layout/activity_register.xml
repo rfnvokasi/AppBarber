@@ -4,13 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="#00683F"
+    android:id="@+id/regis"
     android:layout_height="match_parent"
     tools:context=".register">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txt1"/>
 
 
    <TextView
@@ -32,7 +28,7 @@
         android:backgroundTint="@color/cardview_light_background"
         android:textColorHint="#fff"
         android:textColor="#fff"
-        android:id="@+id/nama"
+        android:id="@+id/et_nama"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         android:layout_width="match_parent"
@@ -44,11 +40,11 @@
     <EditText
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/nama"
+        android:layout_below="@+id/et_nama"
         android:backgroundTint="@color/cardview_light_background"
         android:textColorHint="#fff"
         android:textColor="#fff"
-        android:id="@+id/editTextIsername"
+        android:id="@+id/et_regemail"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         android:layout_width="match_parent"
@@ -59,11 +55,11 @@
     <EditText
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/editTextIsername"
+        android:layout_below="@+id/et_regemail"
         android:backgroundTint="@color/cardview_light_background"
         android:textColorHint="#fff"
         android:textColor="#fff"
-        android:id="@+id/editTextPassword"
+        android:id="@+id/et_regpassword"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         android:layout_width="match_parent"
@@ -77,11 +73,11 @@
         android:text="Daftar"
         android:textColor="#fff"
         android:layout_centerHorizontal="true"
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_regis"
         android:textSize="18sp"
         android:fontFamily="sans-serif-medium"
         android:textAllCaps="false"
-        android:layout_below="@+id/editTextPassword"
+        android:layout_below="@+id/et_regpassword"
         android:layout_width="match_parent"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
@@ -91,7 +87,7 @@
         android:textColor="#fff"
         android:layout_marginTop="15dp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/btn_login"
+        android:layout_below="@+id/btn_regis"
         android:id="@+id/text_log"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

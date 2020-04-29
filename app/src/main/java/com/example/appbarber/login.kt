@@ -40,11 +40,11 @@ class login : AppCompatActivity() {
 
             btn_login.setOnClickListener{
 
-                var username=editTextIsername.text.toString()
-                var password=editTextPassword.text.toString()
+                var email=et_email.text.toString()
+                var password=et_password.text.toString()
 
 
-                postkerserver(username,password)
+                postkerserver(email,password)
 
             }
         }
@@ -59,8 +59,8 @@ class login : AppCompatActivity() {
     fun postkerserver(data1:String,data2:String)
     {
 
-        AndroidNetworking.post("http://192.168.100.180/barber/ceklogin.php")
-            .addBodyParameter("username", data1)
+        AndroidNetworking.post("http://192.168.100.182/barber/login.php")
+            .addBodyParameter("email", data1)
             .addBodyParameter("password", data2)
             .setPriority(Priority.MEDIUM)
             .build()
