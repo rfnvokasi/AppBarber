@@ -19,6 +19,32 @@ class home : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
+        val context = this
+
+        cv_cukur.setOnClickListener {
+            intent = Intent(context,cukur::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        cv_model.setOnClickListener {
+            intent = Intent(context,model::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        cv_layanan.setOnClickListener {
+            intent = Intent(context,layanan::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        cv_antrian.setOnClickListener {
+            intent = Intent(context,antrian::class.java)
+            startActivity(intent)
+            finish()
+        }
+
 
 
         button.setOnClickListener{
@@ -35,6 +61,8 @@ class home : AppCompatActivity() {
 
 
     }
+
+
 
 
 }

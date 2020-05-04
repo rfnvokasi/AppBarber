@@ -18,7 +18,7 @@
 12-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:8:5-25:19
+14-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:8:5-43:19
 15        android:allowBackup="true"
 15-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -35,40 +35,75 @@
 22        android:testOnly="true"
 23        android:theme="@style/AppTheme" >
 23-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:14:9-40
-24        <activity android:name="com.example.appbarber.register" />
-24-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:15:9-46
+24        <activity android:name="com.example.appbarber.checkout" />
+24-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:15:9-55
 24-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:15:19-43
-25        <activity android:name="com.example.appbarber.home" />
-25-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:16:9-42
-25-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:16:19-39
-26        <activity android:name="com.example.appbarber.login" />
-26-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:17:9-43
-26-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:17:19-40
-27        <activity android:name="com.example.appbarber.MainActivity" >
-27-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:18:9-24:20
-27-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:18:19-47
-28            <intent-filter>
-28-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:20:17-69
-29-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:22:17-77
-31-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <provider
-35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-37            android:authorities="com.example.appbarber.lifecycle-process"
-37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-38            android:exported="false"
-38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-39            android:multiprocess="true" />
-39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-40    </application>
-41
-42</manifest>
+25        <activity
+25-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:16:9-18:50
+26            android:name="com.example.appbarber.antrian"
+26-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:17:13-36
+27            android:parentActivityName="com.example.appbarber.home" />
+27-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:18:13-47
+28        <activity android:name="com.example.appbarber.layanan" />
+28-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:19:9-45
+28-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:19:19-42
+29        <activity android:name="com.example.appbarber.model" />
+29-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:20:9-43
+29-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:20:19-40
+30        <activity
+30-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:21:9-23:72
+31            android:name="com.example.appbarber.register"
+31-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:22:13-37
+32            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+32-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:23:13-69
+33        <activity
+33-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:24:9-27:72
+34            android:name="com.example.appbarber.home"
+34-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:25:13-33
+35            android:parentActivityName="com.example.appbarber.login"
+35-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:26:13-48
+36            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+36-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:27:13-69
+37        <activity
+37-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:28:9-30:72
+38            android:name="com.example.appbarber.login"
+38-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:29:13-34
+39            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+39-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:30:13-69
+40        <activity
+40-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:31:9-39:20
+41            android:name="com.example.appbarber.MainActivity"
+41-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:32:13-41
+42            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+42-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:33:13-69
+43            <intent-filter>
+43-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:34:13-38:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:35:17-69
+44-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:35:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:37:17-77
+46-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:37:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:40:9-42:50
+50            android:name="com.example.appbarber.cukur"
+50-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:41:13-34
+51            android:parentActivityName="com.example.appbarber.home" />
+51-->C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:42:13-47
+52
+53        <provider
+53-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+54            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+55            android:authorities="com.example.appbarber.lifecycle-process"
+55-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+56            android:exported="false"
+56-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+57            android:multiprocess="true" />
+57-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\6691aba6a07a208173ad67bb9ac35036\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+58    </application>
+59
+60</manifest>

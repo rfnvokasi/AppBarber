@@ -22,16 +22,34 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.appbarber.register" />
-        <activity android:name="com.example.appbarber.home" />
-        <activity android:name="com.example.appbarber.login" />
-        <activity android:name="com.example.appbarber.MainActivity" >
+        <activity android:name="com.example.appbarber.checkout" />
+        <activity
+            android:name="com.example.appbarber.antrian"
+            android:parentActivityName="com.example.appbarber.home" />
+        <activity android:name="com.example.appbarber.layanan" />
+        <activity android:name="com.example.appbarber.model" />
+        <activity
+            android:name="com.example.appbarber.register"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.appbarber.home"
+            android:parentActivityName="com.example.appbarber.login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.appbarber.login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.appbarber.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.appbarber.cukur"
+            android:parentActivityName="com.example.appbarber.home" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"

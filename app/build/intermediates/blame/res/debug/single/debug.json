@@ -8,6 +8,10 @@
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_layout.xml.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\layout\\list_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sharp_history_black_36dp.png.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\drawable-hdpi\\sharp_history_black_36dp.png"
     },
@@ -36,16 +40,24 @@
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\drawable\\bg.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cukur.xml.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\layout\\activity_cukur.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cukur.png.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\drawable\\cukur.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded2.xml.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\drawable\\rounded2.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -62,6 +74,10 @@
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_checkout.xml.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\layout\\activity_checkout.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -136,6 +152,10 @@
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_layanan.xml.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\layout\\activity_layanan.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
     },
@@ -160,6 +180,10 @@
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\font_raleway_medium.ttf.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\font\\raleway_medium.ttf"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -172,8 +196,16 @@
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_antrian.xml.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\layout\\activity_antrian.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\font_raleway_bold.ttf.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\font\\raleway_bold.ttf"
     },
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
@@ -206,6 +238,10 @@
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\color_nav_item_color.xml.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\color\\nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_model.xml.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\layout\\activity_model.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",

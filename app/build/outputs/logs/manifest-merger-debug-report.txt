@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [com.amitshekhar.android:android-networking:1.0.2] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\89364754ef45190ad4839b69b9eb89de\jetified-android-networking-1.0.2\AndroidManifest.xml:18:1-27:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\9d30eb743bfcaf974579303e96cf0927\navigation-ui-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d7e7c52411b478fb5f3a8a2b98cc9a68\navigation-ui-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -58,20 +58,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\72bdf876e72fb9973c917e9fd6471eba\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2cf8b09fa7eefbd4af44cbcfa92124bc\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d843c0c54d1d3995758fff87a2c30793\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:2:11-69
@@ -84,7 +84,7 @@ ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:8:5-25:19
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:8:5-43:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ad62cdd3b372bb81e612ecadb6ca9d76\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ad62cdd3b372bb81e612ecadb6ca9d76\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a609f666eaf9da5777e80facded89453\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -111,32 +111,66 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ASUS\.gradle\c
 		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:14:9-40
-activity#com.example.appbarber.register
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:15:9-46
+activity#com.example.appbarber.checkout
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:15:9-55
 	android:name
 		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:15:19-43
+activity#com.example.appbarber.antrian
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:16:9-18:50
+	android:parentActivityName
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:18:13-47
+	android:name
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:17:13-36
+activity#com.example.appbarber.layanan
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:19:9-45
+	android:name
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:19:19-42
+activity#com.example.appbarber.model
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:20:9-43
+	android:name
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:20:19-40
+activity#com.example.appbarber.register
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:21:9-23:72
+	android:theme
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:23:13-69
+	android:name
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:22:13-37
 activity#com.example.appbarber.home
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:16:9-42
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:24:9-27:72
+	android:parentActivityName
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:26:13-48
+	android:theme
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:27:13-69
 	android:name
-		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:16:19-39
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:25:13-33
 activity#com.example.appbarber.login
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:17:9-43
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:28:9-30:72
+	android:theme
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:17:19-40
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:29:13-34
 activity#com.example.appbarber.MainActivity
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:31:9-39:20
+	android:theme
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:33:13-69
 	android:name
-		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:32:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.example.appbarber.cukur
+ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:40:9-42:50
+	android:parentActivityName
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:42:13-47
+	android:name
+		ADDED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml:41:13-34
 uses-sdk
 INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ASUS\AndroidStudioProjects\AppBarber\app\src\main\AndroidManifest.xml
