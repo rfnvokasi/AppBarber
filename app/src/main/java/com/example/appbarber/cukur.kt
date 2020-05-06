@@ -9,6 +9,8 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.*
+import androidx.cardview.widget.CardView
+import androidx.core.widget.doOnTextChanged
 import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
@@ -29,7 +31,9 @@ class cukur : AppCompatActivity() {
         //set back button
         actionbar.setDisplayHomeAsUpEnabled(true)
 
-        val mPickTimeBtn2 = findViewById<Button>(R.id.pickTimeBtn)
+
+
+        val mPickTimeBtn2 = findViewById<CardView>(R.id.pickTimeBtn)
         val textView2     = findViewById<TextView>(R.id.et_jam)
 
         mPickTimeBtn2.setOnClickListener {
@@ -43,7 +47,7 @@ class cukur : AppCompatActivity() {
         }
 
 
-        val mPickTimeBtn = findViewById<Button>(R.id.pickDateBtn)
+        val mPickTimeBtn = findViewById<CardView>(R.id.pickDateBtn)
         val textView     = findViewById<TextView>(R.id.et_tgl)
 
         val c = Calendar.getInstance()
@@ -62,17 +66,17 @@ class cukur : AppCompatActivity() {
         }
 
 
-        val colors = arrayOf("Cukur Biasa - Rp.30,000","Paket 1 - Rp.50,000","Paket 2 - Rp.100,000")
+        val layanans = arrayOf("-","Cukur Biasa - Rp.30,000","Paket 1 - Rp.50,000","Paket 2 - Rp.100,000")
 
         // Initializing an ArrayAdapter
         val adapter = ArrayAdapter(
             this, // Context
             android.R.layout.simple_spinner_item, // Layout
-            colors // Array
+            layanans // Array
         )
 
         // Set the drop down view resource
-        adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line)
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 
         // Finally, data bind the spinner object with dapter
         spinner.adapter = adapter;
@@ -105,6 +109,7 @@ class cukur : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
     }
 
 //    fun tambahdata(nama:String,email:String, password:String){

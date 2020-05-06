@@ -9,9 +9,9 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_co"
         android:layout_marginTop="20dp"
-        app:cardCornerRadius="4dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        app:cardCornerRadius="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         app:cardBackgroundColor="#D9FFEC"
         android:layout_width="match_parent"
         android:layout_height="200dp">
@@ -141,11 +141,26 @@
         android:textSize="20sp"
         android:fontFamily="@font/roboto_bold"
         android:background="@drawable/rounded2"
-        android:layout_marginRight="15dp"
-        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/cancel"
+        android:text="Finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/cancel"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_bold"
+        android:background="@drawable/cancel"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/cv_co"
-        android:text="Finish"
+        android:text="Cancel"
+        android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

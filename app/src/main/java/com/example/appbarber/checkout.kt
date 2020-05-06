@@ -26,11 +26,13 @@ class checkout : AppCompatActivity() {
         //set back button
         actionbar.setDisplayHomeAsUpEnabled(true)
 
-
-
-
-
         val context=this
+
+        cancel.setOnClickListener {
+            val intent = Intent(context,cukur::class.java)
+            startActivity(intent)
+            finish()
+        }
 
         val intentObjects: Intent =intent
 

@@ -1403,6 +1403,8 @@ drawable antri
 drawable avd_hide_password
 drawable avd_show_password
 drawable barbers
+drawable baseline_alarm_white_18dp
+drawable baseline_today_white_18dp
 drawable beard
 drawable bg
 drawable btn_checkbox_checked_mtrl
@@ -1414,6 +1416,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable buzzcut
+drawable cancel
 drawable combover
 drawable cukur
 drawable design_bottom_navigation_item_background
@@ -1666,6 +1669,7 @@ drawable puffyundercut
 drawable round_account_circle_black_36dp
 drawable rounded
 drawable rounded2
+drawable rounded3
 drawable sharp_history_black_36dp
 drawable sharp_home_black_36dp
 drawable test_custom_background
@@ -1755,6 +1759,9 @@ id btn_regis
 id btnbck6
 id button
 id buttonPanel
+id cal
+id caltext
+id cancel
 id cancel_action
 id cancel_button
 id center
@@ -2041,7 +2048,12 @@ id textinput_counter
 id textinput_error
 id textinput_helper_text
 id tgl
+id tim
 id time
+id timtext
+id tinput1
+id tinput2
+id tinput3
 id title
 id titleDividerNoCustom
 id title_template
@@ -2054,6 +2066,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tv_spinner
+id tvcukur
+id tvlyn
 id tvreg
 id txt1
 id txtView
@@ -2285,6 +2299,7 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string home
 string icon_content_description
+string label
 string login
 string mr_button_content_description
 string mr_cast_button_connected
