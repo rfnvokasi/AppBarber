@@ -1413,6 +1413,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable buzzcut
+drawable combover
 drawable cukur
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1420,8 +1422,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fadepompadout
 drawable gunting
 drawable header
+drawable highfade
 drawable ic_audiotrack_dark
 drawable ic_audiotrack_light
 drawable ic_calendar_black_24dp
@@ -1658,6 +1662,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable puffyundercut
 drawable round_account_circle_black_36dp
 drawable rounded
 drawable rounded2
@@ -1830,6 +1835,7 @@ id homeAsUp
 id horizontal
 id icon
 id icon_group
+id icons_image
 id ifRoom
 id image
 id info
@@ -1851,6 +1857,7 @@ id media_actions
 id message
 id middle
 id mini
+id model_text
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -1924,6 +1931,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id my_recycler_view
 id nav_controller_view_tag
 id navigation_header_container
 id never
@@ -2156,6 +2164,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout grid_layout_list_item
 layout list_layout
 layout mr_cast_dialog
 layout mr_cast_group_item
