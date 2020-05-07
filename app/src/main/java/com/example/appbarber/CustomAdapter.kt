@@ -12,7 +12,7 @@ class CustomAdapter (val userList: ArrayList<User>): RecyclerView.Adapter<Custom
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
         val user: User=userList[position]
-        holder?.textViewName?.text = "Nama :"+" "+user.nama
+        holder?.textViewName?.text = user.nama
         holder?.textViewAddress?.text = "Tanggal :"+" "+user.tgl
         holder?.textViewAddress2?.text = "Jam :"+" "+user.jam
 

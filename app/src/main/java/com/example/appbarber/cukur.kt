@@ -25,10 +25,13 @@ class cukur : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cukur)
+
+        //actionbar
         val actionbar = supportActionBar
         //set actionbar title
         actionbar!!.title = "Cukur"
         //set back button
+        actionbar.setDisplayHomeAsUpEnabled(true)
         actionbar.setDisplayHomeAsUpEnabled(true)
 
 
@@ -110,6 +113,10 @@ class cukur : AppCompatActivity() {
             finish()
         }
 
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 
 //    fun tambahdata(nama:String,email:String, password:String){

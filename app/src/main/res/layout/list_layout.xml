@@ -7,11 +7,12 @@
 
     <androidx.cardview.widget.CardView
         app:cardElevation="5dp"
-        app:cardBackgroundColor="#fff"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="12dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="#00683F"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
@@ -22,8 +23,8 @@
             >
             <TextView
                 android:layout_width="wrap_content"
-                android:textSize="20sp"
-                android:textColor="#000"
+                android:textSize="16sp"
+                android:textColor="#fff"
                 android:layout_height="wrap_content"
                 android:id="@+id/textViewName"
                 android:fontFamily="@font/raleway_bold"
@@ -31,10 +32,10 @@
                  />
 
             <TextView
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:layout_below="@+id/textViewName"
-                android:textSize="16sp"
-                android:textColor="#000"
+                android:textSize="14sp"
+                android:textColor="#fff"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Blitar Indonesia"
@@ -42,9 +43,8 @@
                 />
 
             <TextView
-                android:layout_marginTop="10dp"
-                android:textSize="16sp"
-                android:textColor="#000"
+                android:textSize="14sp"
+                android:textColor="#fff"
                 android:layout_below="@+id/textViewAddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

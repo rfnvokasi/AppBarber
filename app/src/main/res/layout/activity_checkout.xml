@@ -3,16 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#E8E0E0"
     android:layout_height="match_parent"
     tools:context=".checkout">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_co"
+        app:cardElevation="5dp"
         android:layout_marginTop="20dp"
-        app:cardCornerRadius="2dp"
+        app:cardCornerRadius="4dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        app:cardBackgroundColor="#D9FFEC"
+        app:cardBackgroundColor="#BAFDDB"
         android:layout_width="match_parent"
         android:layout_height="200dp">
 
@@ -83,7 +85,7 @@
             <TextView
                 android:text="a"
                 android:textAlignment="textStart"
-                android:layout_marginLeft="200dp"
+                android:layout_marginLeft="150dp"
                 android:layout_marginTop="20dp"
                 android:layout_below="@+id/dtl_pesanan"
                 android:layout_toRightOf="@+id/nm"
@@ -104,7 +106,7 @@
                 android:textSize="16sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="135dp"
+                android:layout_marginLeft="85dp"
                 />
             <TextView
                 android:layout_below="@+id/tgl"
@@ -116,7 +118,7 @@
                 android:textSize="16sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="215dp"/>
+                android:layout_marginLeft="164dp"/>
             <TextView
                 android:layout_below="@+id/jm"
                 android:layout_toRightOf="@+id/lyn"
@@ -127,7 +129,7 @@
                 android:textSize="16sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="183dp"/>
+                android:layout_marginLeft="132dp"/>
 
 
         </RelativeLayout>
@@ -157,7 +159,7 @@
         android:background="@drawable/cancel"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_below="@+id/cv_co"
         android:text="Cancel"
         android:textAllCaps="false"

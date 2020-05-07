@@ -22,27 +22,19 @@ class home : AppCompatActivity() {
         val context = this
 
         cv_cukur.setOnClickListener {
-            intent = Intent(context,cukur::class.java)
-            startActivity(intent)
-            finish()
+            startActivity(Intent(this@home,cukur::class.java))
         }
 
         cv_model.setOnClickListener {
-            intent = Intent(context,model::class.java)
-            startActivity(intent)
-            finish()
+            startActivity(Intent(this@home,model::class.java))
         }
 
         cv_layanan.setOnClickListener {
-            intent = Intent(context,layanan::class.java)
-            startActivity(intent)
-            finish()
+            startActivity(Intent(this@home,layanan::class.java))
         }
 
         cv_antrian.setOnClickListener {
-            intent = Intent(context,antrian::class.java)
-            startActivity(intent)
-            finish()
+            startActivity(Intent(this@home,antrian::class.java))
         }
 
 

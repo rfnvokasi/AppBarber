@@ -24,6 +24,7 @@ class antrian : AppCompatActivity() {
         actionbar!!.title = "Antrian"
         //set back button
         actionbar.setDisplayHomeAsUpEnabled(true)
+        actionbar.setDisplayHomeAsUpEnabled(true)
 
         val recyclerView = findViewById(R.id.recyclerView) as RecyclerView
         recyclerView.layoutManager= LinearLayoutManager(this, LinearLayout.VERTICAL, false)
@@ -31,13 +32,6 @@ class antrian : AppCompatActivity() {
         val users=ArrayList<User>()
 
         var context=this
-
-        btnbck6.setOnClickListener {
-            intent = Intent(context,MainActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-
 
         AndroidNetworking.get("http://192.168.100.182/barber/antrian.php")
             .setPriority(Priority.MEDIUM)
@@ -72,5 +66,9 @@ class antrian : AppCompatActivity() {
                 }
             })
 
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }

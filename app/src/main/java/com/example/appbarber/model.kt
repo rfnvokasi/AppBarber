@@ -19,6 +19,13 @@ class model : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_model)
 
+        val actionbar = supportActionBar
+        //set actionbar title
+        actionbar!!.title = "Model"
+        //set back button
+        actionbar.setDisplayHomeAsUpEnabled(true)
+        actionbar.setDisplayHomeAsUpEnabled(true)
+
         recyclerView = findViewById(R.id.my_recycler_view)
         gridLayoutManager = GridLayoutManager(applicationContext, 3, LinearLayoutManager.VERTICAL, false)
         recyclerView?.layoutManager = gridLayoutManager
@@ -40,6 +47,10 @@ class model : AppCompatActivity() {
 
 
         return arrayLists
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 
 }
