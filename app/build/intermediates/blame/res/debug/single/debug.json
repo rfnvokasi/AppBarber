@@ -36,6 +36,10 @@
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable_prd.png.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\drawable\\prd.png"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable_puffyundercut.png.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\drawable\\puffyundercut.png"
     },
@@ -166,6 +170,10 @@
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black_24dp.png.flat",
         "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable_produk.xml.flat",
+        "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\src\\main\\res\\drawable\\produk.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\AndroidStudioProjects\\AppBarber\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home_black_24dp.png.flat",

@@ -33,7 +33,7 @@ class antrian : AppCompatActivity() {
 
         var context=this
 
-        AndroidNetworking.get("http://192.168.100.182/barber/antrian.php")
+        AndroidNetworking.get("http://192.168.100.184/barber/antrian.php")
             .setPriority(Priority.MEDIUM)
             .build()
             .getAsJSONObject(object : JSONObjectRequestListener {

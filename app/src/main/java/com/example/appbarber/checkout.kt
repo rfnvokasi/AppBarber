@@ -20,16 +20,17 @@ class checkout : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_checkout)
+
         val actionbar = supportActionBar
         //set actionbar title
         actionbar!!.title = "Checkout"
         //set back button
         actionbar.setDisplayHomeAsUpEnabled(true)
+        actionbar.setDisplayHomeAsUpEnabled(true)
 
-        val context=this
 
         cancel.setOnClickListener {
-            val intent = Intent(context,cukur::class.java)
+            val intent = Intent(this@checkout,cukur::class.java)
             startActivity(intent)
             finish()
         }
@@ -53,7 +54,7 @@ class checkout : AppCompatActivity() {
 
             tambahdata(nama, tgl, jam,lyn)
 
-            val intent= Intent(context,home::class.java)
+            val intent= Intent(this@checkout,home::class.java)
             startActivity(intent)
             finish()
         }
@@ -68,7 +69,7 @@ class checkout : AppCompatActivity() {
         loading.show()
 
 
-        AndroidNetworking.post("http://192.168.100.182/barber/booking.php")
+        AndroidNetworking.post("http://192.168.100.184/barber/booking.php")
             .addBodyParameter("nama", nama)
             .addBodyParameter("tgl", tgl)
             .addBodyParameter("jam", jam)
@@ -96,5 +97,11 @@ class checkout : AppCompatActivity() {
 
             })
 
+
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }

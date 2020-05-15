@@ -3,22 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#E8E0E0"
+    android:background="#f2f4f5"
     android:layout_height="match_parent"
     tools:context=".checkout">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_co"
         app:cardElevation="5dp"
-        android:layout_marginTop="20dp"
-        app:cardCornerRadius="4dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="6dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        app:cardBackgroundColor="#BAFDDB"
+        app:cardBackgroundColor="#FFFFFF"
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="205dp">
 
         <RelativeLayout
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 

@@ -1672,6 +1672,8 @@ drawable pomade1
 drawable pomade2
 drawable pomade3
 drawable pomade4
+drawable prd
+drawable produk
 drawable puffyundercut
 drawable round_account_circle_black_36dp
 drawable rounded
@@ -1878,6 +1880,8 @@ id line3
 id listMode
 id list_item
 id logo
+id ly1
+id ly2
 id lyn
 id lyn1
 id lyn2
@@ -2000,6 +2004,9 @@ id pmd3
 id pmd4
 id progress_circular
 id progress_horizontal
+id r1
+id r2
+id r3
 id radio
 id recyclerView
 id regis

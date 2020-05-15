@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">AppBarber</string>
     <string name="register">Dont Have Account ? <b><u><font color='#3DE563'>Register</font></u></b></string>
-    <string name="login">Already Have Account ? <b><u><font color='#3DE563'>Login</font></u></b></string>
+    <string name="login"><font color='#000'>Already Have Account ? </font><b><u><font color='#00683F'>Login</font></u></b></string>
     <string name="wlcom">Selamat Datang di <b> CUKURAN </b> </string>
     <string name="wlcom1"><i>Cukur murah dan Nyaman</i></string>
 

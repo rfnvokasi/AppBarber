@@ -62,14 +62,14 @@ class cukur : AppCompatActivity() {
 
             val dpd = DatePickerDialog(this, DatePickerDialog.OnDateSetListener { view, year, monthOfYear, date ->
                 // Display Selected date in TextView
-                textView.setText("" + date + " - " + month + " - " + year)
+                textView.setText("" + date + "/" + month + "/" + year)
             }, year, month, date)
             dpd.show()
 
         }
 
 
-        val layanans = arrayOf("-","Cukur Biasa - Rp.30,000","Paket 1 - Rp.50,000","Paket 2 - Rp.100,000")
+        val layanans = arrayOf("-","Cukur Biasa - Rp.30,000","Paket 1 - Rp.50,000","Paket 2 - Rp.75,000")
 
         // Initializing an ArrayAdapter
         val adapter = ArrayAdapter(
@@ -99,7 +99,7 @@ class cukur : AppCompatActivity() {
         val context=this
 
         next.setOnClickListener {
-            val intent = Intent(context,checkout::class.java)
+            val intent = Intent(this@cukur,checkout::class.java)
 
             val name:String = et_nama2.text.toString()
             val tgl:String = et_tgl.text.toString()

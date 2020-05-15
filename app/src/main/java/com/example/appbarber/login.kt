@@ -59,7 +59,7 @@ class login : AppCompatActivity() {
     fun postkerserver(data1:String,data2:String)
     {
 
-        AndroidNetworking.post("http://192.168.100.182/barber/login.php")
+        AndroidNetworking.post("http://192.168.100.184/barber/login.php")
             .addBodyParameter("email", data1)
             .addBodyParameter("password", data2)
             .setPriority(Priority.MEDIUM)

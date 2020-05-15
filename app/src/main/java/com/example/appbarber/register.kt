@@ -51,7 +51,7 @@ class register : AppCompatActivity() {
         loading.show()
 
 
-        AndroidNetworking.post("http://192.168.100.182/barber/register.php")
+        AndroidNetworking.post("http://192.168.100.184/barber/register.php")
             .addBodyParameter("nama_user", nama)
             .addBodyParameter("email", email)
             .addBodyParameter("password", password)

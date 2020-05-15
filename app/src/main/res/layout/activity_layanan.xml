@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#E6E2E2"
+    android:background="#FFF9F9"
     android:layout_height="match_parent"
     tools:context=".layanan">
 
@@ -15,6 +15,7 @@
     <TextView
         android:id="@+id/tvprod"
         android:textSize="20sp"
+        android:textColor="#000"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/raleway_bold"
         android:layout_marginLeft="20dp"
@@ -40,11 +41,13 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 app:cardElevation="8dp"
+
                 app:cardBackgroundColor="#FFF"
                 app:cardCornerRadius="6dp"
                 android:layout_height="160dp">
 
                 <RelativeLayout
+                    android:background="@drawable/prd"
                     android:padding="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -58,7 +61,7 @@
 
                     <TextView
                         android:id="@+id/txpmd1"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textAlignment="center"
                         android:textSize="14sp"
                         android:fontFamily="@font/roboto_bold"
@@ -70,7 +73,7 @@
                     <TextView
                         android:layout_marginTop="5dp"
                         android:id="@+id/hrpmd1"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:layout_alignParentRight="true"
                         android:textAlignment="center"
                         android:textSize="12sp"
@@ -91,6 +94,7 @@
                 android:layout_height="160dp">
 
                 <RelativeLayout
+                    android:background="@drawable/prd"
                     android:padding="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -104,7 +108,7 @@
 
                     <TextView
                         android:id="@+id/txpmd2"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textAlignment="center"
                         android:textSize="14sp"
                         android:fontFamily="@font/roboto_bold"
@@ -114,9 +118,9 @@
                         android:layout_height="wrap_content"/>
 
                     <TextView
-                        android:layout_marginTop="2dp"
+                        android:layout_marginTop="5dp"
                         android:id="@+id/hrpmd2"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textAlignment="center"
                         android:textSize="12sp"
                         android:text="Rp. 140,000"
@@ -137,6 +141,7 @@
 
                 <RelativeLayout
                     android:padding="5dp"
+                    android:background="@drawable/prd"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -149,7 +154,7 @@
 
                     <TextView
                         android:id="@+id/txpmd3"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textAlignment="center"
                         android:textSize="14sp"
                         android:fontFamily="@font/roboto_bold"
@@ -159,9 +164,9 @@
                         android:layout_height="wrap_content"/>
 
                     <TextView
-                        android:layout_marginTop="2dp"
+                        android:layout_marginTop="5dp"
                         android:id="@+id/hrpmd3"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textAlignment="center"
                         android:textSize="12sp"
                         android:text="Rp. 180,000"
@@ -182,6 +187,7 @@
 
                 <RelativeLayout
                     android:padding="5dp"
+                    android:background="@drawable/prd"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -194,7 +200,7 @@
 
                     <TextView
                         android:id="@+id/txpmd4"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textAlignment="center"
                         android:textSize="14sp"
                         android:fontFamily="@font/roboto_bold"
@@ -204,9 +210,9 @@
                         android:layout_height="wrap_content"/>
 
                     <TextView
-                        android:layout_marginTop="2dp"
+                        android:layout_marginTop="5dp"
                         android:id="@+id/hrpmd4"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textAlignment="center"
                         android:textSize="12sp"
                         android:text="Rp. 286,000"
@@ -225,6 +231,7 @@
         android:layout_below="@+id/scview"
         android:id="@+id/tvlay"
         android:textSize="20sp"
+        android:textColor="#000"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/raleway_bold"
         android:layout_marginLeft="20dp"
@@ -308,7 +315,7 @@
             app:cardCornerRadius="6dp"
             app:cardElevation="10dp"
             android:id="@+id/cvlyn2"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_below="@+id/cvlyn1">
@@ -392,7 +399,7 @@
             app:cardCornerRadius="6dp"
             app:cardElevation="10dp"
             android:id="@+id/cvlyn3"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_below="@+id/cvlyn2">
