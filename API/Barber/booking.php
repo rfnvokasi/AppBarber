@@ -13,7 +13,7 @@ $query = mysqli_query($db , $sql);
 
 // apakah query update berhasil ?
 if ($query) {
-  echo json_encode(array('message'=>'Anda berhasil terdaftar.'));
+  echo json_encode(array('message'=>'Selamat Mencukur :)'));
 } else {
   // kalau gagal tampilkan pesan
   die("Gagal menyimpan perubahan");

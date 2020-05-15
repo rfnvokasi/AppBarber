@@ -4,7 +4,7 @@ include("config.php");
 
 
 
-$sql = "SELECT * FROM booking";
+$sql = "SELECT * FROM booking  ORDER BY `tgl` ASC";
 $result = array();
 $query = mysqli_query($db, $sql);
  
